@@ -46,11 +46,12 @@ Como a²>=1 e b²>=1, temos que (a² + ab + b²) > 1 e (a-b) = 1.
 
 b = a + 1
 
-Dado que p = b³ - a³, temos que p é a diferença de cubos "vizinhos".
-"""
+Dado que p = b³ - a³, temos que p é a diferença de cubos de números consecutivos
 
-# Testando primalidade de todas as diferenças de cubos "vizinhos" até 1000000
-# chegamos à resposta 173
+
+Testando primalidade de todas as diferenças de cubos de números consecutivos
+até 1000000 chegamos à resposta 173
+"""
 k = 1
 done = False
 answer = 0
