@@ -33,8 +33,7 @@ Algumas contas para resolver o problema:
 n³ + n²p = x³
 => n²(n+p) = x³
 
-Daqui para termos um cubo perfeito, n e n+p devem ser cubos perfeitos também,
-senão n+p = n² para formar um cubo perfeito que é um absurdo.
+Daqui, para termos um cubo perfeito, n e n+p devem ser cubos perfeitos também
 
 n = a³
 n+p = b³
@@ -46,8 +45,14 @@ Como a²>=1 e b²>=1, temos que (a² + ab + b²) > 1 e (a-b) = 1.
 
 b = a + 1
 
-Dado que p = b³ - a³, temos que p é a diferença de cubos de números consecutivos
+Substituindo b:
 
+p = a² + a² + a + (a + 1)²
+p = 3a² + 3a + 1
+
+Podemos utilizar a forma acima para testar primos nesse formato até 1000000.
+Contudo, note que dado que p = b³ - a³, temos que p é a diferença de cubos de
+números consecutivos
 
 Testando primalidade de todas as diferenças de cubos de números consecutivos
 até 1000000 chegamos à resposta 173
